@@ -51,6 +51,14 @@ li {
 .product:hover .card-hover {
   display: block;
 }
+.product .card-discount-badge {
+  position: absolute;
+  bottom: 100px;
+  left: 20px;
+  background-color: red;
+  color: white;
+  padding: 5px 5px;
+}
 
 .info {
   padding: 10px;
@@ -62,8 +70,11 @@ li {
 }
 
 footer {
+  display: flex;
+  justify-content: space-between;
   text-align: center;
   padding: 20px;
   background-color: black;
   color: white;
+  padding: 10px 100px;
 }
